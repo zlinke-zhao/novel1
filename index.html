@@ -18,168 +18,178 @@
             margin: 0 auto;
             padding: 40px 20px;
         }
-        h1 {
+        .header {
             text-align: center;
-            font-size: 2em;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+        }
+        .header h1 {
+            font-size: 2.5em;
             color: #ffd700;
-            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            text-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
             margin-bottom: 10px;
         }
-        .subtitle {
-            text-align: center;
+        .header p {
             color: #888;
-            margin-bottom: 40px;
         }
         .chapter-list {
             background: rgba(255, 255, 255, 0.05);
             border-radius: 15px;
-            padding: 30px;
+            padding: 30px 40px;
             border: 1px solid rgba(255, 215, 0, 0.2);
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
+        }
+        .chapter-list h2 {
+            color: #ffd700;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .chapter-list ol {
+            list-style: none;
+            counter-reset: chapter-counter;
         }
         .chapter-list li {
-            list-style: none;
+            counter-increment: chapter-counter;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
-        .chapter-list a {
-            color: #ccc;
+        .chapter-list li a {
+            color: #e8e8e8;
             text-decoration: none;
-            padding: 8px;
+            transition: color 0.3s ease;
             display: block;
-            text-align: center;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-            background: rgba(255, 215, 0, 0.05);
         }
-        .chapter-list a:hover {
-            background: rgba(255, 215, 0, 0.2);
+        .chapter-list li a:hover {
             color: #ffd700;
         }
-        .update-info {
+        .footer {
             text-align: center;
-            color: #666;
             margin-top: 30px;
+            color: #666;
             font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>重生之神级全能系统</h1>
-        <p class="subtitle">都市重生 · 系统流 · 爽文 | 每日更新</p>
-        
+        <div class="header">
+            <h1>重生之神级全能系统</h1>
+            <p>都市重生 · 系统流 · 爽文 | 已更新至第123章</p>
+        </div>
         <div class="chapter-list">
-            <ol start="1">
-            <li><a href="chapter-001.html">第1章</a></li>
-            <li><a href="chapter-002.html">第2章</a></li>
-            <li><a href="chapter-003.html">第3章</a></li>
-            <li><a href="chapter-004.html">第4章</a></li>
-            <li><a href="chapter-005.html">第5章</a></li>
-            <li><a href="chapter-006.html">第6章</a></li>
-            <li><a href="chapter-007.html">第7章</a></li>
-            <li><a href="chapter-008.html">第8章</a></li>
-            <li><a href="chapter-009.html">第9章</a></li>
-            <li><a href="chapter-010.html">第10章</a></li>
-            <li><a href="chapter-011.html">第11章</a></li>
-            <li><a href="chapter-012.html">第12章</a></li>
-            <li><a href="chapter-013.html">第13章</a></li>
-            <li><a href="chapter-014.html">第14章</a></li>
-            <li><a href="chapter-015.html">第15章</a></li>
-            <li><a href="chapter-016.html">第16章</a></li>
-            <li><a href="chapter-017.html">第17章</a></li>
-            <li><a href="chapter-018.html">第18章</a></li>
-            <li><a href="chapter-019.html">第19章</a></li>
-            <li><a href="chapter-020.html">第20章</a></li>
-            <li><a href="chapter-021.html">第21章</a></li>
-            <li><a href="chapter-022.html">第22章</a></li>
-            <li><a href="chapter-023.html">第23章</a></li>
-            <li><a href="chapter-024.html">第24章</a></li>
-            <li><a href="chapter-025.html">第25章</a></li>
-            <li><a href="chapter-026.html">第26章</a></li>
-            <li><a href="chapter-027.html">第27章</a></li>
-            <li><a href="chapter-028.html">第28章</a></li>
-            <li><a href="chapter-029.html">第29章</a></li>
-            <li><a href="chapter-030.html">第30章</a></li>
-            <li><a href="chapter-031.html">第31章</a></li>
-            <li><a href="chapter-032.html">第32章</a></li>
-            <li><a href="chapter-033.html">第33章</a></li>
-            <li><a href="chapter-034.html">第34章</a></li>
-            <li><a href="chapter-035.html">第35章</a></li>
-            <li><a href="chapter-036.html">第36章</a></li>
-            <li><a href="chapter-037.html">第37章</a></li>
-            <li><a href="chapter-038.html">第38章</a></li>
-            <li><a href="chapter-039.html">第39章</a></li>
-            <li><a href="chapter-040.html">第40章</a></li>
-            <li><a href="chapter-041.html">第41章</a></li>
-            <li><a href="chapter-042.html">第42章</a></li>
-            <li><a href="chapter-043.html">第43章</a></li>
-            <li><a href="chapter-044.html">第44章</a></li>
-            <li><a href="chapter-045.html">第45章</a></li>
-            <li><a href="chapter-046.html">第46章</a></li>
-            <li><a href="chapter-047.html">第47章</a></li>
-            <li><a href="chapter-048.html">第48章</a></li>
-            <li><a href="chapter-049.html">第49章</a></li>
-            <li><a href="chapter-050.html">第50章</a></li>
-            <li><a href="chapter-051.html">第51章</a></li>
-            <li><a href="chapter-052.html">第52章</a></li>
-            <li><a href="chapter-053.html">第53章</a></li>
-            <li><a href="chapter-054.html">第54章</a></li>
-            <li><a href="chapter-055.html">第55章</a></li>
-            <li><a href="chapter-056.html">第56章</a></li>
-            <li><a href="chapter-057.html">第57章</a></li>
-            <li><a href="chapter-058.html">第58章</a></li>
-            <li><a href="chapter-059.html">第59章</a></li>
-            <li><a href="chapter-060.html">第60章</a></li>
-            <li><a href="chapter-061.html">第61章</a></li>
-            <li><a href="chapter-062.html">第62章</a></li>
-            <li><a href="chapter-063.html">第63章</a></li>
-            <li><a href="chapter-064.html">第64章</a></li>
-            <li><a href="chapter-065.html">第65章</a></li>
-            <li><a href="chapter-066.html">第66章</a></li>
-            <li><a href="chapter-067.html">第67章</a></li>
-            <li><a href="chapter-068.html">第68章</a></li>
-            <li><a href="chapter-069.html">第69章</a></li>
-            <li><a href="chapter-070.html">第70章</a></li>
-            <li><a href="chapter-071.html">第71章</a></li>
-            <li><a href="chapter-072.html">第72章</a></li>
-            <li><a href="chapter-073.html">第73章</a></li>
-            <li><a href="chapter-074.html">第74章</a></li>
-            <li><a href="chapter-075.html">第75章</a></li>
-            <li><a href="chapter-076.html">第76章</a></li>
-            <li><a href="chapter-077.html">第77章</a></li>
-            <li><a href="chapter-078.html">第78章</a></li>
-            <li><a href="chapter-079.html">第79章</a></li>
-            <li><a href="chapter-080.html">第80章</a></li>
-            <li><a href="chapter-081.html">第81章</a></li>
-            <li><a href="chapter-082.html">第82章</a></li>
-            <li><a href="chapter-083.html">第83章</a></li>
-            <li><a href="chapter-084.html">第84章</a></li>
-            <li><a href="chapter-085.html">第85章</a></li>
-            <li><a href="chapter-086.html">第86章</a></li>
-            <li><a href="chapter-087.html">第87章</a></li>
-            <li><a href="chapter-088.html">第88章</a></li>
-            <li><a href="chapter-089.html">第89章</a></li>
-            <li><a href="chapter-090.html">第90章</a></li>
-            <li><a href="chapter-091.html">第91章</a></li>
-            <li><a href="chapter-092.html">第92章</a></li>
-            <li><a href="chapter-093.html">第93章</a></li>
-            <li><a href="chapter-094.html">第94章</a></li>
-            <li><a href="chapter-095.html">第95章</a></li>
-            <li><a href="chapter-096.html">第96章</a></li>
-            <li><a href="chapter-097.html">第97章</a></li>
-            <li><a href="chapter-098.html">第98章</a></li>
-            <li><a href="chapter-099.html">第99章</a></li>
-            <li><a href="chapter-100.html">第100章</a></li>
-            <li><a href="chapter-101.html">第101章</a></li>
-            <li><a href="chapter-102.html">第102章</a></li>
-            <li><a href="chapter-103.html">第103章</a></li>
-            <li><a href="chapter-104.html">第104章</a></li>
-            <li><a href="chapter-105.html">第105章</a></li>
-            <li><a href="chapter-106.html">第106章</a></li>
-            <li><a href="chapter-107.html">第107章</a></li>
-            <li><a href="chapter-108.html">第108章</a></li>
-            <li><a href="chapter-110.html">第110章 十一个坐标</a> </li>
+            <h2>📖 章节目录</h2>
+            <ol>
+            <li><a href="chapter-001.html">第1章 重生2008</a></li>
+            <li><a href="chapter-002.html">第2章 记忆中的彩票</a></li>
+            <li><a href="chapter-003.html">第3章 彩票与暗涌</a></li>
+            <li><a href="chapter-004.html">第4章 初识与布局</a></li>
+            <li><a href="chapter-005.html">第5章 彩票开奖</a></li>
+            <li><a href="chapter-006.html">第6章 收服陈默</a></li>
+            <li><a href="chapter-007.html">第7章 暗流涌动</a></li>
+            <li><a href="chapter-008.html">第8章 苏家秘辛</a></li>
+            <li><a href="chapter-009.html">第9章 暗夜来客</a></li>
+            <li><a href="chapter-010.html">第10章 山雨欲来</a></li>
+            <li><a href="chapter-011.html">第11章 风暴前夕</a></li>
+            <li><a href="chapter-012.html">第12章 暗棋翻转</a></li>
+            <li><a href="chapter-013.html">第13章 龙凤之局</a></li>
+            <li><a href="chapter-014.html">第14章 抉择</a></li>
+            <li><a href="chapter-015.html">第15章 茶局</a></li>
+            <li><a href="chapter-016.html">第16章 旧事</a></li>
+            <li><a href="chapter-017.html">第17章 暗潮</a></li>
+            <li><a href="chapter-018.html">第18章 来客</a></li>
+            <li><a href="chapter-019.html">第19章 麒麟</a></li>
+            <li><a href="chapter-020.html">第20章 旧账</a></li>
+            <li><a href="chapter-021.html">第21章 暗涌</a></li>
+            <li><a href="chapter-022.html">第22章 暗线</a></li>
+            <li><a href="chapter-023.html">第23章 对弈</a></li>
+            <li><a href="chapter-024.html">第24章 暗夜来讯</a></li>
+            <li><a href="chapter-025.html">第25章 账本线索</a></li>
+            <li><a href="chapter-026.html">第26章 藏古斋</a></li>
+            <li><a href="chapter-027.html">第27章 围局</a></li>
+            <li><a href="chapter-028.html">第28章 破局</a></li>
+            <li><a href="chapter-029.html">第29章 账中谜</a></li>
+            <li><a href="chapter-030.html">第1章 重生2008</a></li>
+            <li><a href="chapter-031.html">第1章 重生2008</a></li>
+            <li><a href="chapter-032.html">第32章 地下室秘辛</a></li>
+            <li><a href="chapter-033.html">第33章 系统升级·老宅之约</a></li>
+            <li><a href="chapter-034.html">第34章 老宅惊变</a></li>
+            <li><a href="chapter-035.html">第35章 血色真相</a></li>
+            <li><a href="chapter-036.html">第36章 暗网猎影</a></li>
+            <li><a href="chapter-037.html">第37章 苏家暗流</a></li>
+            <li><a href="chapter-038.html">第38章 地下室集结</a></li>
+            <li><a href="chapter-039.html">第39章 红烛暗影</a></li>
+            <li><a href="chapter-040.html">第40章 暗影浮现</a></li>
+            <li><a href="chapter-041.html">第41章 焚书倒计时</a></li>
+            <li><a href="chapter-042.html">第42章 迷雾渐开</a></li>
+            <li><a href="chapter-043.html">第43章 五月惊变</a></li>
+            <li><a href="chapter-044.html">第44章 灭世倒计时</a></li>
+            <li><a href="chapter-045.html">第45章 迷雾中的身影</a></li>
+            <li><a href="chapter-046.html">第46章 双线追击</a></li>
+            <li><a href="chapter-047.html">第47章 暗流涌动</a></li>
+            <li><a href="chapter-048.html">第48章 觉醒前夜</a></li>
+            <li><a href="chapter-049.html">第49章 凤鸣岐之谜</a></li>
+            <li><a href="chapter-050.html">第50章 暗夜行动</a></li>
+            <li><a href="chapter-051.html">第51章 午夜对决（上）</a></li>
+            <li><a href="chapter-052.html">第52章 午夜对决（下）</a></li>
+            <li><a href="chapter-053.html">第53章 绝境之光</a></li>
+            <li><a href="chapter-054.html">第54章 黎明之后</a></li>
+            <li><a href="chapter-055.html">第55章 暗流再起</a></li>
+            <li><a href="chapter-056.html">第56章 记忆深渊</a></li>
+            <li><a href="chapter-057.html">第57章 预言开始</a></li>
+            <li><a href="chapter-058.html">第58章 凤鸣真相</a></li>
+            <li><a href="chapter-059.html">第59章 命运抉择</a></li>
+            <li><a href="chapter-060.html">第60章 仓库决战</a></li>
+            <li><a href="chapter-061.html">第61章 绝境转机</a></li>
+            <li><a href="chapter-062.html">第62章 意识深渊</a></li>
+            <li><a href="chapter-063.html">第63章 旧友之路</a></li>
+            <li><a href="chapter-064.html">第64章 最后的对话</a></li>
+            <li><a href="chapter-065.html">第65章 意识容器</a></li>
+            <li><a href="chapter-066.html">第66章 第一道墙</a></li>
+            <li><a href="chapter-067.html">第67章 烛龙临城</a></li>
+            <li><a href="chapter-068.html">第68章 父女局</a></li>
+            <li><a href="chapter-069.html">第69章 裂缝</a></li>
+            <li><a href="chapter-070.html">第70章 假裂缝</a></li>
+            <li><a href="chapter-071.html">第71章 夺路</a></li>
+            <li><a href="chapter-072.html">第72章 三点整</a></li>
+            <li><a href="chapter-073.html">第73章 三足鼎立</a></li>
+            <li><a href="chapter-074.html">第74章 空壳</a></li>
+            <li><a href="chapter-075.html">第75章 归来</a></li>
+            <li><a href="chapter-076.html">第76章 共振</a></li>
+            <li><a href="chapter-077.html">第77章 反诱饵</a></li>
+            <li><a href="chapter-078.html">第78章 第三条</a></li>
+            <li><a href="chapter-079.html">第79章 枢纽站</a></li>
+            <li><a href="chapter-080.html">第80章 双宿主</a></li>
+            <li><a href="chapter-081.html">第81章 镜娘</a></li>
+            <li><a href="chapter-082.html">第82章 铁轨</a></li>
+            <li><a href="chapter-083.html">第83章 反制</a></li>
+            <li><a href="chapter-084.html">第84章 咫尺（精修定稿）</a></li>
+            <li><a href="chapter-085.html">第85章 右手（精修定稿）</a></li>
+            <li><a href="chapter-086.html">第86章 回溯（精修定稿）</a></li>
+            <li><a href="chapter-087.html">第87章 凤鸣（精修定稿）</a></li>
+            <li><a href="chapter-088.html">第88章 兵临（精修定稿）</a></li>
+            <li><a href="chapter-089.html">第89章 共鸣（精修定稿）</a></li>
+            <li><a href="chapter-090.html">第90章 炮击</a></li>
+            <li><a href="chapter-091.html">第91章 地下二层</a></li>
+            <li><a href="chapter-092.html">第92章 煤灰道（精修定稿）</a></li>
+            <li><a href="chapter-093.html">第93章 第三层白板（精修定稿）</a></li>
+            <li><a href="chapter-094.html">第94章 枪响</a></li>
+            <li><a href="chapter-095.html">第95章 零点零八六</a></li>
+            <li><a href="chapter-096.html">第96章 围城</a></li>
+            <li><a href="chapter-097.html">第97章 换血</a></li>
+            <li><a href="chapter-098.html">第98章 三人阵</a></li>
+            <li><a href="chapter-099.html">第99章 龙的代价</a></li>
+            <li><a href="chapter-100.html">第100章 新的一天</a></li>
+            <li><a href="chapter-101.html">第101章 回家的人</a></li>
+            <li><a href="chapter-102.html">第102章 妈妈</a></li>
+            <li><a href="chapter-103.html">第103章 新的定位</a></li>
+            <li><a href="chapter-104.html">第104章 第一位居民</a></li>
+            <li><a href="chapter-105.html">第105章 守门人的第一道门</a></li>
+            <li><a href="chapter-106.html">第106章 信封里的另外两个名字</a></li>
+            <li><a href="chapter-107.html">第107章 第一次警报</a></li>
+            <li><a href="chapter-108.html">第108章 波形追踪</a></li>
+            <li><a href="chapter-109.html">第109章 父亲的右手</a></li>
+            <li><a href="chapter-110.html">第110章 十一个坐标</a></li>
+            <li><a href="chapter-111.html">第111章 第三只手</a></li>
             <li><a href="chapter-112.html">第112章 开门</a></li>
             <li><a href="chapter-113.html">第113章 两个名字</a></li>
             <li><a href="chapter-114.html">第114章 两棵树</a></li>
@@ -188,14 +198,15 @@
             <li><a href="chapter-117.html">第117章 留</a></li>
             <li><a href="chapter-118.html">第118章 再</a></li>
             <li><a href="chapter-119.html">第119章 煮</a></li>
-            <li><a href="chapter-120.html">第120章 握</a> <span class="new-badge">NEW</span></li>
-            <li><a href="chapter-121.html">第121章 根</a> <span class="new-badge">NEW</span></li>
-            <li><a href="chapter-111.html">第111章 第三只手</a> </li>
-            <li><a href="chapter-109.html">第109章</a></li>
+            <li><a href="chapter-120.html">第120章 握</a></li>
+            <li><a href="chapter-121.html">第121章 根</a></li>
+            <li><a href="chapter-122.html">第122章 开锅</a></li>
+            <li><a href="chapter-123.html">第123章 同桌</a></li>
             </ol>
         </div>
-        
-        <p class="update-info">已更新至第119章 · 持续连载中</p>
+        <div class="footer">
+            <p>每日更新 · 持续连载中</p>
+        </div>
     </div>
 </body>
 </html>
